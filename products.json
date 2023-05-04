@@ -1,0 +1,130 @@
+[
+    {
+        "name":"Nissa GTR",
+        "model":"R32",
+        "year":"1994",
+        "price":"50000",
+        "description":["Turbo Charged","AWD","inline-6","manual"],
+        "image":""
+    },
+    {
+        "name":"Nissa GTR",
+        "model":"R33",
+        "year":"1998",
+        "price":"60000",
+        "description":["Turbo Charged","AWD","inline-6","manual"],
+        "image":""
+    },
+    {
+        "name":"Nissa GTR",
+        "model":"R34",
+        "year":"2000",
+        "price":"100000",
+        "description":["Turbo Charged","AWD","inline-6","manual"],
+        "image":""
+    },
+    {
+        "name":"Nissa GTR",
+        "model":"R35",
+        "year":"1998",
+        "price":"120000",
+        "description":["Turbo Charged","AWD","inline-6","automatic"],
+        "image":""
+    },
+    {
+        "name":"Toyota Supra",
+        "model":"MK4",
+        "year":"1998",
+        "price":"100000",
+        "description":["Turbo Charged","RWD","inline-6", "manual"],
+        "image":""
+    },
+    {
+        "name":"Toyota Supra",
+        "model":"MK5",
+        "year":"2019",
+        "price":"60000",
+        "description":["Turbo Charged","RWD","inline-6", "automatic"],
+        "image":""
+    },
+    {
+        "name":"Lexus LFA",
+        "model":"F",
+        "year":"1998",
+        "price":"100000",
+        "description":["Naturally Aspirated","RWD","V10", "automatic"],
+        "image":""
+    },
+    {
+        "name":"Subaru Impreza",
+        "model":"WRC",
+        "year":"2006",
+        "price":"60000",
+        "description":["Turbo Charged","AWD","V4", "Manual"],
+        "image":""
+    },
+    {
+        "name":"Subaru WRX",
+        "model":"STI",
+        "year":"2018",
+        "price":"50000",
+        "description":["Turbo Charged","AWD","V4", "Manual"],
+        "image":""
+    },
+    {
+        "name":"Subaru BRZ",
+        "model":"Limited",
+        "year":"2023",
+        "price":"30000",
+        "description":["Naturally Aspirated","RWD","V4", "Manual"],
+        "image":""
+    },
+    {
+        "name":"Mitsubishi Lancer",
+        "model":"EVO",
+        "year":"2001",
+        "price":"60000",
+        "description":["Turbo Charged","AWD","V4", "Manual"],
+        "image":""
+    },
+    {
+        "name":"Mazda RX-7",
+        "model":"FD",
+        "year":"2002",
+        "price":"70000",
+        "description":["Turbo Charged","RWD","Rotary", "Manual"],
+        "image":""
+    },
+    {
+        "name":"Acura NSX",
+        "model":"T",
+        "year":"1995",
+        "price":"100000",
+        "description":["Turbo Charged","RWD","V6", "Manual"],
+        "image":""
+    },
+    {
+        "name":"Honda S",
+        "model":"S2000",
+        "year":"2002",
+        "price":"30000",
+        "description":["Turbo Charged","RWD","V4", "Manual"],
+        "image":""
+    },
+    {
+        "name":"Lexus RC",
+        "model":"RCF",
+        "year":"2018",
+        "price":"60000",
+        "description":["Naturally Aspirated","RWD","V8", "Automatic"],
+        "image":""
+    },
+    {
+        "name":"Acura NSX",
+        "model":"T",
+        "year":"2017",
+        "price":"200000",
+        "description":["Turbo Charged","AWD","V6", "Manual"],
+        "image":""
+    }
+]
