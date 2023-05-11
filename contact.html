@@ -1,86 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
-  <header>
-    <a>Torres4K</a>
-    <img src="sources/Torres4KMedia.png" alt="Torres4K.inc Logo" class="logo">
-
-    <nav>
-      <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <div class="hamburger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </div>
-    </nav>
-</header>
+  </head>
+  <body>
+    <header>
+      <a>Torres4K</a>
+      <img
+        src="sources/Torres4KMedia.png"
+        alt="Torres4K.inc Logo"
+        class="logo"
+      />
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
     <section aria-label="Newest Photos">
       <div class="carousel" data-carousel>
-        <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
-        <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          &#8656;
+        </button>
+        <button class="carousel-button next" data-carousel-button="next">
+          &#8658;
+        </button>
         <ul data-slides>
           <li class="slide" data-active>
-            <img src="sources/slide3.jpg" alt="GTR Image #1">
+            <img src="sources/slide3.jpg" alt="GTR Image #1" />
           </li>
           <li class="slide">
-            <img src="sources/slide2.jpg" alt="GTR Image #2">
+            <img src="sources/slide2.jpg" alt="GTR Image #2" />
           </li>
           <li class="slide">
-              <img src="sources/slide1.jpg" alt="GTR Image #3">
-            </li>
-            <li class="slide" data-active>
-              <img src="sources/Slider1.jpg" alt="GTR Image #1">
-            </li>
+            <img src="sources/slide1.jpg" alt="GTR Image #3" />
+          </li>
+          <li class="slide" data-active>
+            <img src="sources/Slider1.jpg" alt="GTR Image #1" />
+          </li>
         </ul>
       </div>
     </section>
-
+<!-- Contact page with ids for the javascript -->
     <section id="contact">
-      <div class="sectionheader">	<h1>CONTACT</h1></div>
+      <div class="sectionheader"><h1>CONTACT</h1></div>
       <article>
-      <p>Life is simple, you make choices and you don't look back.</p>
-        
-          <label for="checkcontact" class="contactbutton"><div class="mail"></div></label><input id="checkcontact" type="checkbox">
-      
-          <form action="" method="post" class="contactform">
-            <p class="input_wrapper"><input type="text" name="contact_nom" value=""  id ="contact_nom"><label for="contact_nom">NAME</label></p>
-            <p class="input_wrapper"><input type="text" name="contact_email" value=""  id ="contact_email"><label for="contact_email">EMAIL</label></p>
-            <p class="input_wrapper"><input type="text" name="contact_sujet" value=""  id ="contact_sujet"><label for="contact_sujet">SUBJECT</label></p>
-            <p class="textarea_wrapper"><textarea name="contact_message" id="contact_message"></textarea></p>
-            <p class="submit_wrapper"><input type="submit" value="ENVOYER"></p>			
-          </form>
+        <p>Life is simple, you make choices and you don't look back.</p>
+
+        <label for="checkcontact" class="contactbutton"
+          ><div class="mail"></div></label
+        ><input id="checkcontact" type="checkbox" />
+
+        <form action="" method="post" class="contactform">
+          <p class="input_wrapper">
+            <input
+              type="text"
+              name="contact_nom"
+              value=""
+              id="contact_nom"
+            /><label for="contact_nom">NAME</label>
+          </p>
+          <p class="input_wrapper">
+            <input
+              type="text"
+              name="contact_email"
+              value=""
+              id="contact_email"
+            /><label for="contact_email">EMAIL</label>
+          </p>
+          <p class="input_wrapper">
+            <input
+              type="text"
+              name="contact_sujet"
+              value=""
+              id="contact_sujet"
+            /><label for="contact_sujet">SUBJECT</label>
+          </p>
+          <p class="textarea_wrapper">
+            <textarea name="contact_message" id="contact_message"></textarea>
+          </p>
+          <p class="submit_wrapper"><input type="submit" value="ENVOYER" /></p>
+        </form>
       </article>
     </section>
-      
-</body>
-<footer>
-  <img src="sources/Torres4KMedia.png" alt="Torres4K.inc Logo" class="logo">
-  <ul class="social_icon">
-    <li><a href="https://www.linkedin.com/in/kevinmirandatorres/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-    <li><a href="https://www.youtube.com/@torres4k"><ion-icon name="logo-youtube"></ion-icon></a></li>
-    <li><a href="https://www.instagram.com/torres4k/"><ion-icon name="logo-instagram"></ion-icon></a></li>
-    <li><a href="https://github.com/OAKevin/E-Com"><ion-icon name="logo-github"></ion-icon></a></li>
-  </ul>
-  <ul class="menu">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-  <p>@2022 Torres4K | All RIghts Reserved</p>
-</footer>
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
+  </body>
+  <!-- Footer -->
+  <footer>
+    <img src="sources/Torres4KMedia.png" alt="Torres4K.inc Logo" class="logo" />
+    <ul class="social_icon">
+      <li>
+        <a href="https://www.linkedin.com/in/kevinmirandatorres/"
+          ><ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/@torres4k"
+          ><ion-icon name="logo-youtube"></ion-icon
+        ></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/torres4k/"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+      </li>
+      <li>
+        <a href="https://github.com/OAKevin/E-Com"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+      </li>
+    </ul>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p>@2022 Torres4K | All RIghts Reserved</p>
+  </footer>
+  <!-- imports the icons for the footer -->
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
 </html>
